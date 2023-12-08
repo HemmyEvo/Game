@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock-paper-scissors</title>
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+</head>
+<body>
+   <!--This is the game instruction-->
+   <div class="instruction">
+      <center>
+         <h1>Game Rule</h1>
+      </center>
+
+       
+         <dl>
+            <dt>Rock</dt> 
+            <dd>is a closed fist.</dd>
+         </dl>
+
+         <dl>
+            <dt>
+               Paper
+            </dt>
+            <dd>
+               is a flat hand with fingers and thumb extended and the palm facing downward.
+            </dd>
+         </dl>
+
+          <dl>
+            <dt>Scissors</dt>
+            <dd>is a fist with the index and middle fingers fully extended toward the opposing player.
+            </dd>
+          </dl>
+        
+          <br>
+          <center>
+            <h1>How The Game <br> Work</h1>
+          </center>
+          <div class="rule">
+          <ul>
+            <li>Rock wins against Scissors</li>
+            <li>Paper wins against Rock</li>
+            <li>Scissors win against Paper</li>  
+          </ul>
+         </div>
+
+   </div>
+   <div class="wrap">
+      <h1>Rock Paper Scissors</h1>
+
+      <!--Rock button-->
+      <button class="icon"
+      onclick="
+     playGame('Rock');
+     ">
+        <img src="rock.png">
+      </button>
+  
+      <!--Paper button-->
+      <button class="icon"
+      onclick="
+       playGame('Paper');
+      ">
+          <img src="paper.png">
+      </button>
+  
+  
+      <!--Scissor button-->
+      <button class="icon"
+      onclick="
+        playGame('Scissors');
+      ">
+        <img src="scissors.png">
+      </button>
+      <p class="js-result"></p>
+      <p class="js-move"></p>
+      <p class="js-score"></p>
+      <br>
+      <br>
+  
+  
+  
+      <!--Reset button-->
+  
+      <button class="Reset"
+      onclick="
+      UpdateScore.wins = 0;
+      UpdateScore.losses = 0;
+      UpdateScore.tie = 0;
+      localStorage.removeItem('score')
+      UpdateScoreElement();
+      "
+      >
+        Reset Score
+      </button>
+  
+  
+   </div>
+  
+    <script src="rock-paper-scissors.js"></script>
+
+
+</body>
+</html>

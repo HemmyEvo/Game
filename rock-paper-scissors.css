@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000e5;
+    color: gold;
+    text-align: center;
+
+}
+.wrap{
+    flex-wrap: wrap;
+    margin-right: 500px;
+    margin-top: 100px;
+    float: right;
+   
+}
+h1{
+    margin-top: 50px;
+}
+.instruction{
+    background: gold;
+    color: black;
+    width: 400px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 40px;
+    position: relative;
+    box-shadow: 5px 5px 43px orange;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.instruction h1{
+    margin-top: 10px;
+    font-family: sans-serif;
+    text-decoration: underline ;
+    opacity: .7;
+    font-size: 40px;
+
+}
+.instruction li{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: brown;
+    margin-bottom: 20px;
+    opacity: .6;
+    left: 0;
+    margin-left: 50px;
+}
+.rule{
+    margin-top: 20px;
+}
+dt{
+    margin-left: 15px;
+    font-size: 57px;
+    margin-top: 22px;
+    text-decoration: underline;
+    font-weight: 800;
+    color: goldenrod;
+    opacity: 0.6;
+    
+}
+dd{
+    
+    font-size: 19px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight:500;
+    font-family: sans-serif;
+    color: brown;
+    opacity: .8;
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.icon{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px dotted;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    border-left-color:rgb(161, 89, 7);
+    border-bottom-color:rgb(161, 89, 7);
+    border-right-color:gold;
+    border-top-color:gold;
+    margin-top: 50px;
+}
+.Reset{
+    margin-top: 50px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    background: white;
+    cursor: pointer;
+}
+.js-result{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+.js-move{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.js-move img{
+    cursor: auto;
+}
+.js-score{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+@media only screen and (max-width:1460px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-right: 35px;
+        margin-top: 100px;
+        float: right;
+
+       
+    }
+}
+@media only screen and (max-width:900px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-right: 260px;
+        margin-top: 100px;
+        float: right;
+       
+    }
+    .instruction{
+        background: gold;
+        color: black;
+        width: 400px;
+        float: left;
+        margin-left: 220px;
+        margin-top: 40px;
+        position: relative;
+        box-shadow: 5px 5px 43px orange;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
+@media only screen and (max-width:870px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-right: 230px;
+        margin-top: 100px;
+        float: right;
+       
+    }
+    .instruction{
+        background: gold;
+        color: black;
+        width: 400px;
+        float: left;
+        margin-left: 210px;
+        margin-top: 40px;
+        position: relative;
+        box-shadow: 5px 5px 43px orange;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
+@media only screen and (max-width:810px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-right: 150px;
+        margin-top: 100px;
+        float: right;
+    }
+    .instruction{
+        background: gold;
+        color: black;
+        width: 400px;
+        float: left;
+        margin-left: 190px;
+        margin-top: 40px;
+        position: relative;
+        box-shadow: 5px 5px 43px orange;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
+@media only screen and (max-width:719px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-right: 150px;
+        margin-top: 100px;
+        float: right;
+    }
+    .instruction{
+        background: gold;
+        color: black;
+        width: 400px;
+        float: left;
+        margin-left: 150px;
+        margin-top: 40px;
+        position: relative;
+        box-shadow: 5px 5px 43px orange;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:679px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-right: 140px;
+        margin-top: 100px;
+        float: right;
+       
+    }
+    .instruction{
+        background: gold;
+        color: black;
+        width: 400px;
+        float: left;
+        margin-left: 128px;
+        margin-top: 40px;
+        position: relative;
+        box-shadow: 5px 5px 43px orange;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-right: 100px;
+        margin-top: 100px;
+        float: right;
+       
+    }
+    .instruction{
+        background: gold;
+        color: black;
+        width: 400px;
+        float: left;
+        margin-left: 150px;
+        margin-top: 40px;
+        position: relative;
+        box-shadow: 5px 5px 43px orange;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width:630px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-right: 100px;
+        margin-top: 100px;
+        float: right;
+       
+    }
+    .instruction{
+        background: gold;
+        color: black;
+        width: 400px;
+        float: left;
+        margin-left: 100px;
+        margin-top: 40px;
+        position: relative;
+        box-shadow: 5px 5px 43px orange;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-right: 90px;
+        margin-top: 100px;
+        float: right;
+    }
+    .instruction{
+        background: gold;
+        color: black;
+        width: 400px;
+        float: left;
+        margin-left: 90px;
+        margin-top: 40px;
+        position: relative;
+        box-shadow: 5px 5px 43px orange;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
+@media only screen and (max-width:550px){
+    .wrap{
+        flex-wrap: wrap;
+        margin-top: 100px;
+        float: left;
+       
+    }
+    .instruction{
+        background: gold;
+        color: black;
+        width: 400px;
+        float: right;
+        margin-top: 40px;
+        position: relative;
+        box-shadow: 5px 5px 43px orange;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
